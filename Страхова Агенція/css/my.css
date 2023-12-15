@@ -1,0 +1,55 @@
+﻿.messenger-link {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+    .messenger-link img {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
+h4 {
+    color: green;
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Додаємо цей стиль для центрування тексту відносно блока */
+    padding: 20px;
+}
+
+.text-between {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.rectangle {
+    background-color: #ddd;
+    height: 250px;
+    width: 100%;
+    position: relative; /* Змінено позицію на relative */
+}
+
+.home-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    color : forestgreen;
+
+
+    
